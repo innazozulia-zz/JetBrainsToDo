@@ -1,0 +1,54 @@
+body{
+    background-color: #58b09c;
+}
+.container{
+    max-width: 800px;
+    margin: 200px auto;
+    text-align: center;
+}
+#add-task-button{
+    border-radius: 20px;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+#input-task{
+    border-radius: 10px;
+    width: 180px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.list{
+    max-width: 400px;
+    margin: 0 auto;
+}
+li{
+    list-style-type: none;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#task-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+}
+.delete-btn{
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+input[type=checkbox]:checked ~ span {
+    text-decoration: line-through;
+}
+.todo{
+    background-color: red;
+}
+
+
